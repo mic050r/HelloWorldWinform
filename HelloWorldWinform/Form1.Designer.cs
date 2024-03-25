@@ -41,9 +41,9 @@
             this.label1.Location = new System.Drawing.Point(538, 60);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(542, 67);
+            this.label1.Size = new System.Drawing.Size(609, 67);
             this.label1.TabIndex = 0;
-            this.label1.Text = "빨머 샤쿨 마지막";
+            this.label1.Text = "박지우쌤 담임 사건";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
@@ -64,8 +64,10 @@
             this.ClientSize = new System.Drawing.Size(1159, 846);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1545454";
+            this.Text = "3214 임지현 3-2 급훈";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
